@@ -57,11 +57,11 @@ It’s a great way to practice:
 
 ```mermaid
 flowchart LR
-    A[Front-End (JavaScript)] --(HTTP/JSON)--> B(Go Backend)
-    B --(HTTP/JSON)--> C[Python Service]
+    A[Front-End (JavaScript)] -- "HTTP/JSON" --> B(Go Backend)
+    B -- "HTTP/JSON" --> C[Python Service]
     B <--> D[(Database)]
     C <--> D
-    C --(OpenAI)--> E[(OpenAI API)]
+    C -- "OpenAI" --> E[(OpenAI API)]
     
     A -->|Displays results| A
     B -->|Handles auth, routing| B
