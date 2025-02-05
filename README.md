@@ -53,15 +53,3 @@ It’s a great way to practice:
 
 5. **Extensible Architecture**  
    The Python service can be extended to perform additional data analysis or ML tasks.
-
----
-
-## Architecture
-
-```mermaid
-flowchart LR
-    A[Front-End (JavaScript)] -->|HTTP/JSON| B(Go Backend)
-    B -->|HTTP/JSON| C[Python Service]
-    B <--> D[(Database)]
-    C <--> D
-    C -->|OpenAI| E[(OpenAI API)]
