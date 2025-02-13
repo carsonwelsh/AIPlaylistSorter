@@ -4,21 +4,6 @@ AIPlaylistSorter is a multi-service application that uses the [OpenAI API](https
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)  
-2. [Features](#features)  
-3. [Architecture](#architecture)  
-4. [Tech Stack](#tech-stack)  
-5. [Setup & Installation](#setup--installation)  
-6. [Usage](#usage)  
-7. [Project Structure](#project-structure)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
-10. [Contact](#contact)
-
----
-
 ## Overview
 
 AIPlaylistSorter lets you:
